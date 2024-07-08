@@ -1,0 +1,82 @@
+/* SocialShareMenu.css */
+
+.menu {
+    position: relative;
+    border-radius: 50%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    margin: 0;
+}
+
+.menu.active {
+    position: relative;
+    transition: 0.5s;
+    justify-content: center;
+    height: 25vh;
+    margin: 10vh;
+    display: flex;
+}
+
+.menu .toggle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.menu.active .toggle {
+    transform: rotate(360deg);
+}
+
+.menu li {
+    position: absolute;
+    list-style: none;
+    transform: rotate(calc(var(--i) * -45deg));
+    transform-origin: center;
+    transition: 0.5s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menu.active li {
+    opacity: 1;
+    transform: rotate(calc(var(--i) * 45deg)) translateY(-100px);
+}
+
+.menu li a {
+    display: block;
+    background: var(--clr);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    transition: 0.5s;
+    transform: rotate(calc(var(--i) * -45deg));
+    height: 30px; /* Adjusted height for the image size */
+    width: 30px;  /* Adjusted width for the image size */
+    margin: 0;
+}
+
+.menu li a:hover {
+    transform: scale(1.1);
+}
+.home #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  

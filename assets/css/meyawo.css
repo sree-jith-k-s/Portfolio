@@ -51,6 +51,7 @@
 }
 
 html {
+  
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -11518,8 +11519,8 @@ pre .code {
   text-transform: none;
   background-color: transparent;
   border: 0;
-  margin: 0;
   overflow: visible;
+  margin-bottom: 6%;
 }
 
 .hamburger:hover {
@@ -11636,7 +11637,7 @@ pre .code {
   }
 }
 
-.custom-navbar . {
+.custom-navbar {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
   text-decoration: none;
   color: #fff;
@@ -11673,7 +11674,7 @@ pre .code {
 }
 
 .custom-navbar .hamburger .hamburger-inner, .custom-navbar .hamburger .hamburger-inner::before, .custom-navbar .hamburger .hamburger-inner::after {
-  background: #fff;
+    background: #0e0f31;
 }
 
 .custom-navbar .nav {
@@ -11702,7 +11703,7 @@ pre .code {
 }
 
 .custom-navbar .nav .item .link:hover, .custom-navbar .nav .item .link.active {
-  color: #695aa6;
+  color: #0e0f31;
 }
 
 .custom-navbar.affix {
@@ -11723,7 +11724,7 @@ pre .code {
 }
 
 .custom-navbar.affix .hamburger-inner, .custom-navbar.affix .hamburger-inner::before, .custom-navbar.affix .hamburger-inner::after {
-  background: #6c757d;
+  background: #0e0f31;
 }
 
 @media (min-width: 768px) {
@@ -12061,7 +12062,8 @@ pre .code {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../imgs/header.jpg);
+          background-color: white;
+  /* background-image: url(../imgs/header.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -12209,14 +12211,17 @@ pre .code {
 /* sections */
 .section {
   padding: 70px 10px;
+  margin-bottom: -50px;
+  height: fit-content;
 }
 
 .section .section-title {
+  margin-bottom: -20px;
   font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
 }
 
 .section .section-subtitle {
-  margin-bottom: 6px;
+  
   font-weight: 400;
   opacity: .6;
 }
@@ -12230,5 +12235,6 @@ pre .code {
 }
 
 .section-lg {
-  padding: 100px 0 !important;
+  padding: -50px 0 !important;
 }
+.section
