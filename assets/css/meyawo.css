@@ -11195,7 +11195,7 @@ p {
 }
 
 .portfolio-card .portfolio-card-img {
-  width: 100%;
+  width: 120%;
 }
 
 .portfolio-card .portfolio-card-overlay {
@@ -11703,7 +11703,7 @@ pre .code {
 }
 
 .custom-navbar .nav .item .link:hover, .custom-navbar .nav .item .link.active {
-  color: #0e0f31;
+  color: #10707f;
 }
 
 .custom-navbar.affix {
@@ -11937,7 +11937,7 @@ pre .code {
   .custom-navbar .nav .item .link {
     padding: 7px 12px;
     display: block;
-    color: #6c757d;
+    color: #0e0f31;
   }
 }
 
@@ -12171,6 +12171,10 @@ pre .code {
           align-items: center;
   text-align: left;
 }
+.about p{
+  font-size: 14px;
+  font-weight: 500px;
+}
 
 .about-img-holder {
   min-width: 400px;
@@ -12211,12 +12215,10 @@ pre .code {
 /* sections */
 .section {
   padding: 70px 10px;
-  margin-bottom: -50px;
   height: fit-content;
 }
 
 .section .section-title {
-  margin-bottom: -20px;
   font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
 }
 
@@ -12235,6 +12237,5 @@ pre .code {
 }
 
 .section-lg {
-  padding: -50px 0 !important;
+  padding: 80px 0 !important;
 }
-.section
