@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="assets/css/meyawo.css">
     <link rel="stylesheet" href="./assets/css/share.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" oncontextmenu="return false">
@@ -289,44 +291,50 @@
     </section>
      <!-- end of portfolio section -->
      <section class="section" id="connect">
-    
-            
-              <h2 >Connect</h2>
+      <div>
+            <h2 >Connect</h2>
               <p class="lead">click here to connect:</p>
+              <div>
               <div class="menu">
-                <div class="toggle" onclick="toggleMenu()">
-                  <img src="./assets/imgs/social.png" alt="Share" style="width: 30px; height: 30px;">
-                </div>
-                <li style="--i: 0; --clr: #;">
-                  <a href="https://www.facebook.com/sreejithk.sreenivasan.334?mibextid=ZbWKwL"><img src="./assets/imgs/facebook.png" alt="Facebook" style="width: 30px; height: 30px;"></a>
-                </li>
-                <li style="--i: 1; --clr: #;">
-                  <a href="https://wa.me/qr/D7T6TYGUWLU7A1"><img src="./assets/imgs/whatsapp.png" alt="WhatsApp" style="width: 30px; height: 30px;"></a>
-                </li>
-                <li style="--i: 2; --clr: #;">
-                  <a href="https://x.com/sr_xx_jit_?t=lJsYs935rxvFvlgXKdABMQ&s=09"><img src="./assets/imgs/twitter.png" alt="Twitter" style="width: 30px; height: 30px;"></a>
-                </li>
-                <li style="--i: 3; --clr: #;">
-                  <a href="https://github.com/sree-jith-k-s"><img src="./assets/imgs/github.png" alt="Github" style="width: 30px; height: 30px;"></a>
-                </li>
-                <li style="--i: 4; --clr: #;">
-                  <a href="https://www.linkedin.com/in/sreejith-k-s-506957287"><img src="./assets/imgs/linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;"></a>
-                </li>
-                <li style="--i: 5; --clr: #;">
-                  <a href="https://www.instagram.com/sr.xx_jit._?igsh=amw1Z3lqcXMzdmVk"><img src="./assets/imgs/instagram.png" alt="Instagram" style="width: 30px; height: 30px;"></a>
-                </li>
-                <li style="--i: 6; --clr: #;">
-                  <a href="https://www.snapchat.com/add/sr.xxjit?share_id=JTHE3MTGy0Y&locale=en-GB"><img src="./assets/imgs/snapchat.png" alt="Pinterest" style="width: 30px; height: 30px;"></a>
-                </li>
-                <li style="--i: 7; --clr: #;">
-                  <a href="http://t.me/sr_xx_jit"><img src="./assets/imgs/telegram.png" alt="YouTube" style="width: 30px; height: 30px;"></a>
-                </li>
+                <div class="toggle">
+                  <img src="./assets/imgs/social.png" width="30" height="30">
+                  </div>
+                
+                <li style="--i:0;--clr:#1877f2">
+                  <a href="https://www.facebook.com/sreejithk.sreenivasan.334?mibextid=ZbWKwL"><img src="./assets/imgs/facebook.png" width="30" height="30"></a>
+                  </li>
+                <li style="--i:1;--clr:#25d366">
+                  <a href="https://wa.me/qr/D7T6TYGUWLU7A1"><img src="./assets/imgs/whatsapp.png" width="30" height="30"></a>
+                  </li>
+                <li style="--i:2;--clr:#000">
+                  <a href="https://x.com/sr_xx_jit_?t=lJsYs935rxvFvlgXKdABMQ&s=09"><img src="./assets/imgs/twitter.png" width="30" height="30"></a>
+                  </li>
+                <li style="--i:3;--clr:#2b9ed6">
+                  <a href="http://t.me/sr_xx_jit"><img src="./assets/imgs/telegram.png" width="30" height="30"></a>
+                  </li>
+                <li style="--i:4;--clr:#0a66c2">
+                  <a href="https://www.linkedin.com/in/sreejith-k-s-506957287"><img src="./assets/imgs/linkedin.png" width="30" height="30"></a>
+                  </li>
+                <li style="--i:5;--clr:#c32aa3">
+                  <a href="https://www.instagram.com/sr.xx_jit._?igsh=amw1Z3lqcXMzdmVk"><img src="./assets/imgs/instagram.png" width="30" height="30"></a>
+                  </li>
+                <li style="--i:6;--clr:#fffb00">
+                  <a href="https://www.snapchat.com/add/sr.xxjit?share_id=JTHE3MTGy0Y&locale=en-GB"><img src="./assets/imgs/snapchat.png" width="30" height="30"></a>
+                  </li>
+                <li style="--i:7;--clr:#000">
+                  <a href="https://github.com/sree-jith-k-s"><img src="./assets/imgs/github.png" width="30" height="30"></a>
+                  </li>
               </div>
               <script>
-                function toggleMenu() {
-                  document.querySelector('.menu').classList.toggle('active');
-                }
-              </script>
+                const menu=document.querySelector(".menu");
+            const toggle=document.querySelector(".toggle");
+            
+            toggle.addEventListener("click",()=>{
+              menu.classList.toggle("active");
+            })
+            </script>
+              </div>
+     </section>
               <section class="section" id="Know">
                 <div class="container text-center">
                     <p class="section-subtitle">Want to know more?</p>
