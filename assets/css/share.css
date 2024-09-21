@@ -110,7 +110,7 @@
   .menu li{
     margin-top: 30%;
     position:absolute;
-    left:-23%;
+    left:-24%;
     list-style:none;
     transition:0.5s;
     transform:rotate(calc(360deg/8 * var(--i)));
