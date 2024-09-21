@@ -1,13 +1,86 @@
 .menu{
+  position:relative;
+  left: 40%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top: 12%;
+}
+
+.menu .toggle{
+  position:relative;
+  height:60px;
+  width:60px;
+  background:#fff;
+  border-radius:50%;
+  box-shadow:0 3px 4px rgba(0,0,0,0.15);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#333;
+  font-size:2rem;
+  cursor:pointer;
+  transition:1.25s;
+  z-index:5;
+  margin-right: 77%;
+}
+
+.menu.active .toggle{
+  transform:rotate(360deg);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.15),
+    0 0 0 2px #333,
+    0 0 0 8px #fff;
+}
+
+.menu li{
+  position:absolute;
+  left:0;
+  list-style:none;
+  transition:0.5s;
+  transform:rotate(calc(360deg/8 * var(--i)));
+  transform-origin:140px;
+  scale:0;
+  transition-delay: calc(0.05s * var(--i));
+}
+
+.menu.active li{
+  scale:1;
+}
+
+.menu li a{
+  position:relative;
+  display:flex;
+  transform:rotate(calc(360deg/-8 * var(--i)));
+  width:60px;
+  height:60px;
+  background-color:#FFF;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  font-size:1.75rem;
+  color:var(--clr);
+  box-shadow:0 3px 4px rgba(0,0,0,0.15);
+  transition:0.5s;
+}
+
+.menu li:hover a{
+  font-size:2.5rem;
+  box-shadow:0 0 0 2px var(--clr),
+    0 0 0 6px #fff;
+}
+
+/* Mobile view adjustments */
+@media screen and (max-width: 768px) {
+  .menu{
     position:relative;
-    top: 50%;
-    left: 35%;
-    width:280px;
-    height:280px;
+    left: 40%;
     display:flex;
     align-items:center;
     justify-content:center;
+    margin-top: 12%;
   }
+  
   .menu .toggle{
     position:relative;
     height:60px;
@@ -23,16 +96,21 @@
     cursor:pointer;
     transition:1.25s;
     z-index:5;
+    margin-right: 75%;
+    margin-top: 30%;
   }
+  
   .menu.active .toggle{
     transform:rotate(360deg);
     box-shadow: 0 6px 8px rgba(0,0,0,0.15),
       0 0 0 2px #333,
       0 0 0 8px #fff;
   }
+  
   .menu li{
+    margin-top: 30%;
     position:absolute;
-    left:0;
+    left:-15%;
     list-style:none;
     transition:0.5s;
     transform:rotate(calc(360deg/8 * var(--i)));
@@ -40,13 +118,15 @@
     scale:0;
     transition-delay: calc(0.05s * var(--i));
   }
+  
   .menu.active li{
     scale:1;
   }
+  
   .menu li a{
     position:relative;
     display:flex;
-   transform:rotate(calc(360deg/-8 * var(--i)));
+    transform:rotate(calc(360deg/-8 * var(--i)));
     width:60px;
     height:60px;
     background-color:#FFF;
@@ -56,11 +136,13 @@
     border-radius:50%;
     font-size:1.75rem;
     color:var(--clr);
-     box-shadow:0 3px 4px rgba(0,0,0,0.15);
+    box-shadow:0 3px 4px rgba(0,0,0,0.15);
     transition:0.5s;
   }
+  
   .menu li:hover a{
     font-size:2.5rem;
     box-shadow:0 0 0 2px var(--clr),
       0 0 0 6px #fff;
   }
+}

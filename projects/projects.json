@@ -1,0 +1,95 @@
+[
+  {
+    "name": "NotyStack Android",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "notystackandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/notystack-android"
+    }
+  },
+  {
+    "name": "SPPU Engg Prep",
+    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
+    "image": "sppuprepandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/sppu-prep-android"
+    }
+  },
+  {
+    "name": "NewsBox Android",
+    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
+    "image": "newsboxandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/newsbox-android"
+    }
+  },
+  {
+    "name": "Weatherly Android",
+    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
+    "image": "weatherlyandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/weatherly-android"
+    }
+  },
+  {
+    "name": "Portfolio-React",
+    "desc": "Portfolio website using REACT",
+    "image": "portfolio-react",
+    "category": "mern",
+    "links": {
+      "view": "https://sreejithks.netlify.app/",
+      "code": "https://github.com/sree-jith-k-s/GoBetween"
+
+    }
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "Portfolio website using HTML",
+    "image": "portfolio-html",
+    "category": "mern",
+    "links": {
+      "view": "https://sreejithportfolio.netlify.app/",
+      "code": "https://github.com/sree-jith-k-s/GoBetween"
+
+    }
+  },
+  {
+    "name": "Twitter-React",
+    "desc": "The React-based Twitter clone focuses on frontend",
+    "image": "Twitter-clone",
+    "category": "mern",
+    "links": {
+      "view": "https://reactjsprojects.herokuapp.com/",
+      "code": "https://github.com/sree-jith-k-s/GoBetween"
+
+    }
+  },
+  {
+    "name": "Go-Between",
+    "desc": "The JSP web and Android apps modernize logistics by optimizing inventory, routes, and real-time tracking.",
+    "image": "go-between",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/sree-jith-k-s/GoBetween",
+      "code": "https://github.com/sree-jith-k-s/GoBetween"
+    }
+  },
+  {
+    "name": "Herbal Healthcare",
+    "desc": "The PHP project promotes holistic wellness with natural remedies, online appointments, and personalized solutions.",
+    "image": "herbal-care",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/sree-jith-k-s/Herbal-HealthCare",
+      "code": "https://github.com/sree-jith-k-s/Herbal-HealthCare"
+    }
+  }
+]
