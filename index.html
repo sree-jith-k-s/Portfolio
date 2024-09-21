@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="jigar sable, portfolio, jigar, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
-    <meta name="description" content="Welcome to Jigar's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <meta name="description" content="Welcome to Sreejith's Portfolio.  Web Developer and Android App Developer" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/share.css">
@@ -35,7 +35,8 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#connect">Connect</a></li>
+            <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
 </header>
@@ -344,7 +345,7 @@
 </section>
 
 <!-- contact section starts -->
-<!-- <section class="contact" id="contact">
+<section class="contact" id="contact">
   
   <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
@@ -374,13 +375,13 @@
         </div>
         </div>
       <div class="button-area">
-        <button type="submit">
+        <button type="submit" onclick="sendMail()">
           Submit <i class="fa fa-paper-plane"></i></button>
       </div>
     </form>
   </div>
   </div>
-</section> -->
+</section>
 <!-- contact section ends -->
 
 
@@ -443,15 +444,21 @@
 <script src="./assets/js/app.js"></script>
 
 <!-- vanilla tilt.js links -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
 <!-- scroll reveal anim -->
 <script src="https://unpkg.com/scrollreveal"></script>
 
-<script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "fBgRvdQVT8EU1ADpG",
+      });
+   })();
+</script>
 
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
