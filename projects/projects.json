@@ -46,7 +46,7 @@
     "category": "mern",
     "links": {
       "view": "https://sreejithportfolio.netlify.app/",
-      "code": "https://github.com/sree-jith-k-s/GoBetween"
+      "code": "https://github.com/sree-jith-k-s/Portfolio-React"
 
     }
   },
@@ -57,7 +57,7 @@
     "category": "mern",
     "links": {
       "view": "https://sreejithks.netlify.app/",
-      "code": "https://github.com/sree-jith-k-s/GoBetween"
+      "code": "https://github.com/sree-jith-k-s/Portfolio"
 
     }
   },
@@ -67,8 +67,8 @@
     "image": "Twitter-clone",
     "category": "mern",
     "links": {
-      "view": "https://reactjsprojects.herokuapp.com/",
-      "code": "https://github.com/sree-jith-k-s/GoBetween"
+      "view": "https://github.com/sree-jith-k-s/Twitter-Clone",
+      "code": "https://github.com/sree-jith-k-s/Twitter-Clone"
 
     }
   },
