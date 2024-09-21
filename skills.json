@@ -74,5 +74,13 @@
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/color/48/linux--v1.png"
+    },
+    {
+        "name": "Kali Linux",
+        "icon": "https://img.icons8.com/color/48/kali-linux.png"
     }
 ]
