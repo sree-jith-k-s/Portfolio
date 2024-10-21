@@ -1,5 +1,16 @@
 [
   {
+    "name": "Photo Gallery",
+    "desc": "A Static photo gallery and portfolio of a Photographer",
+    "image": "photo-gallery",
+    "category": "mern",
+    "links": {
+      "view": "https://skphotohub.netlify.app/",
+      "code": "https://github.com/sree-jith-k-s/Photo-gallery"
+
+    }
+  },
+  {
     "name": "Portfolio-React",
     "desc": "Portfolio website using REACT",
     "image": "portfolio-react",
