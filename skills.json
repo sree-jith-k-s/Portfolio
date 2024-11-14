@@ -83,5 +83,9 @@
     {
         "name": "Kali Linux",
         "icon": "https://img.icons8.com/color/48/kali-linux.png"
+    },
+    {
+        "name": "SQLite",
+        "icon": "https://img.icons8.com/ios/48/62b7e7/sqlite.png"
     }
 ]
