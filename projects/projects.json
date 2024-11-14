@@ -1,9 +1,18 @@
-[
+  [{
+    "name": "Tasty Recipes",
+    "desc": "Python Django project for a recipe search website with personalized recommendations.",
+    "image": "recipe-python",
+    "category": "python,django",
+    "links": {
+      "view": "https://github.com/sree-jith-k-s/recipes",
+      "code": "https://github.com/sree-jith-k-s/recipes"
+    }
+  },
   {
     "name": "Photo Gallery",
     "desc": "A Static photo gallery and portfolio of a Photographer",
     "image": "photo-gallery",
-    "category": "mern",
+    "category": "basicweb",
     "links": {
       "view": "https://skphotohub.netlify.app/",
       "code": "https://github.com/sree-jith-k-s/Photo-gallery"
@@ -25,7 +34,7 @@
     "name": "Portfolio Website",
     "desc": "Portfolio website using HTML",
     "image": "portfolio-html",
-    "category": "mern",
+    "category": "basicweb",
     "links": {
       "view": "https://sreejithks.netlify.app/",
       "code": "https://github.com/sree-jith-k-s/Portfolio"
@@ -47,7 +56,7 @@
     "name": "Go-Between",
     "desc": "The JSP web and Android apps modernize logistics by optimizing inventory, routes, and real-time tracking.",
     "image": "go-between",
-    "category": "lamp",
+    "category": "android",
     "links": {
       "view": "https://github.com/sree-jith-k-s/GoBetween",
       "code": "https://github.com/sree-jith-k-s/GoBetween"
@@ -57,7 +66,7 @@
     "name": "Herbal Healthcare",
     "desc": "The PHP project promotes holistic wellness with natural remedies, online appointments, and personalized solutions.",
     "image": "herbal-care",
-    "category": "basicweb",
+    "category": "wamp",
     "links": {
       "view": "https://github.com/sree-jith-k-s/Herbal-HealthCare",
       "code": "https://github.com/sree-jith-k-s/Herbal-HealthCare"
