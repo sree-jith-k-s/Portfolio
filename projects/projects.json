@@ -2,7 +2,7 @@
     "name": "Tasty Recipes",
     "desc": "Python Django project for a recipe search website with personalized recommendations.",
     "image": "recipe-python",
-    "category": "python,django",
+    "category": "python",
     "links": {
       "view": "https://github.com/sree-jith-k-s/recipes",
       "code": "https://github.com/sree-jith-k-s/recipes"
@@ -23,7 +23,7 @@
     "name": "Portfolio-React",
     "desc": "Portfolio website using REACT",
     "image": "portfolio-react",
-    "category": "mern",
+    "category": "react",
     "links": {
       "view": "https://sreejithportfolio.netlify.app/",
       "code": "https://github.com/sree-jith-k-s/Portfolio-React"
@@ -45,7 +45,7 @@
     "name": "Twitter-React",
     "desc": "The React-based Twitter clone focuses on frontend",
     "image": "Twitter-clone",
-    "category": "mern",
+    "category": "react",
     "links": {
       "view": "https://reactjsprojects.herokuapp.com/",
       "code": "https://github.com/sree-jith-k-s/Twitter-clone"
@@ -66,7 +66,7 @@
     "name": "Herbal Healthcare",
     "desc": "The PHP project promotes holistic wellness with natural remedies, online appointments, and personalized solutions.",
     "image": "herbal-care",
-    "category": "wamp",
+    "category": "PHP",
     "links": {
       "view": "https://github.com/sree-jith-k-s/Herbal-HealthCare",
       "code": "https://github.com/sree-jith-k-s/Herbal-HealthCare"
