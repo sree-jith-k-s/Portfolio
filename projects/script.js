@@ -83,41 +83,29 @@ function showProjects(projects) {
     // srtop.reveal('.work .box', { interval: 200 });
 
     // isotope filter products
-    var $grid = $('.box-container').isotope({
-        itemSelector: '.grid-item',
-        layoutMode: 'fitRows',
-        masonry: {
-            columnWidth: 200
-        }
-    });
+     var $grid = $('.box-container').isotope({
+    itemSelector: '.grid-item',
+    layoutMode: 'fitRows' // Use fitRows layout
+  });
 
-    // filter items on button click
-    $('.button-group').on('click', 'button', function () {
-        $('.button-group').find('.is-checked').removeClass('is-checked');
-        $(this).addClass('is-checked');
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
-    });
+  // Filter buttons functionality
+  $('#filters').on('click', '.btn', function () {
+    // Get filter value
+    var filterValue = $(this).attr('data-filter');
+
+    // Apply filter
+    $grid.isotope({ filter: filterValue });
+
+    // Update button active state
+    $('#filters .btn').removeClass('is-checked');
+    $(this).addClass('is-checked');
+  });
 }
 
 getProjects().then(data => {
     showProjects(data);
 })
-// fetch projects end
 
-// Start of Tawk.to Live Chat
-// var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-// (function () {
-//     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-//     s1.async = true;
-//     s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
-//     s1.charset = 'UTF-8';
-//     s1.setAttribute('crossorigin', '*');
-//     s0.parentNode.insertBefore(s1, s0);
-// })();
-// End of Tawk.to Live Chat
-
-// disable developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false;
