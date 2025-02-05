@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Sreejith K S, portfolio, Sreejith, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Sreejith's Portfolio.  Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/hello.png" type="image/x-png">
+    <title>Portfolio | Sreejith K S</title>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+  <style>
+    .backbtn {
+        display: flex;
+        justify-content: start;
+        padding: 10px;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 16px;
+        background-color: #000000;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn i {
+        font-size: 18px;
+        transition: transform 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #063669;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        transform: translateY(-2px);
+    }
+
+    .btn:hover i {
+        transform: translateX(-5px); /* Move arrow to the left */
+    }
+  </style>
+</head>
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fa-brands fa-d-and-d"></i> Sreejith </a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Timeline</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a class="active"  href="#education">Achievements</a></li>
+            <li><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+<!-- education section starts -->
+<section class="education" id="education">
+  <br/><br/><br/> <br/>
+  <h1 class="heading"><i class="fas fa-award"></i> My <span>Achievements</span></h1>
+  <p class="qoute">"Achievement is not the pursuit of perfection, but the courage to embrace challenges and grow from the journey."</p>
+
+  <!-- Empty container for achievements (populated via JS) -->
+  <div class="box-container">
+    
+  </div>
+</section>
+
+<!-- Link to achievements.js -->
+<script src="./achievements.js"></script>
+    
+<!-- education section ends -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3><i class="fa-brands fa-d-and-d"></i> Sreejith</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/></p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Timeline</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> Projects</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> Achievements</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+          <p> <i class="fas fa-envelope"></i>sreejithksrvsn@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Kerala, India-689621</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/sreejith-k-s-506957287" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/sree-jith-k-s" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:sreejithksrvsn@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://x.com/sr_xx_jit_?t=lJsYs935rxvFvlgXKdABMQ&s=09" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="http://t.me/sr_xx_jit" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <!-- <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="#"> </a></h1> -->
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "fBgRvdQVT8EU1ADpG",
+      });
+   })();
+</script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
