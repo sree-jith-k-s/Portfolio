@@ -1,24 +1,116 @@
 {
     "achievements": [
       {
-        "title": "Certification in Cloud Computing and Cyber Security",
-        "issuer": "GITH GLOBAL INDIA TECHNO HUB, KERALA"
+        "title": "Introduction to Front End Development",
+        "issuer": "Simplilearn",
+        "issued": "Feb 2025",
+        "credential": "Introduction to Front End Development.pdf"
       },
       {
-        "title": "Skill Development Programme in Cloud Computing and Cyber Security",
-        "issuer": "Indira Gandhi College of Arts and Science in association with GITH GLOBAL INDIA TECHNO HUB, KERALA"
+        "title": "Become a Data Science Expert with Python Django Tutorial",
+        "issuer": "Simplilearn",
+        "issued": "Jan 2025",
+        "credential": "7828606_81318991738050975900.pdf"
       },
       {
-        "title": "Certification in Python Programming",
-        "issuer": "GITH GLOBAL INDIA TECHNO HUB, KERALA"
+        "title": "Career Essentials in Cybersecurity",
+        "issuer": "Microsoft and LinkedIn",
+        "issued": "Jan 2025",
+        "skills": ["Threat & Vulnerability Management", "Cybersecurity", "Information Security Awareness"]
       },
       {
-        "title": "One Day Workshop in Software Development",
-        "issuer": "IROHUB INFOTECH, Kochi"
+        "title": "Cybersecurity Foundations",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2025",
+        "skills": ["Cybersecurity"]
+      },
+      {
+        "title": "Microsoft Security Copilot",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2025",
+        "skills": ["Microsoft Copilot", "Incident Response"]
+      },
+      {
+        "title": "Project Management Fundamentals",
+        "issuer": "IBM SkillsBuild Student Ambassador Program",
+        "issued": "Jan 2025",
+        "skills": ["Project Management", "Team Collaboration", "Team Coordination", "Team Management", "Project Planning", "Project Coordination", "Project Estimation"]
+      },
+      {
+        "title": "Career Essentials in Software Development",
+        "issuer": "Microsoft and LinkedIn",
+        "issued": "Dec 2024",
+        "skills": ["Software Development", "Programming"]
+      },
+      {
+        "title": "Cybersecurity Awareness: Cybersecurity Terminology",
+        "issuer": "LinkedIn",
+        "issued": "Dec 2024",
+        "skills": ["Information Security Awareness"]
+      },
+      {
+        "title": "Programming Foundations: Beyond the Fundamentals",
+        "issuer": "LinkedIn",
+        "issued": "Dec 2024",
+        "skills": ["Programming"]
+      },
+      {
+        "title": "Programming Foundations: Fundamentals",
+        "issuer": "LinkedIn",
+        "issued": "Dec 2024",
+        "skills": ["Programming"]
+      },
+      {
+        "title": "The Cybersecurity Threat Landscape",
+        "issuer": "LinkedIn",
+        "issued": "Dec 2024",
+        "skills": ["Threat & Vulnerability Management", "Cybersecurity"]
+      },
+      {
+        "title": "Communication Foundations",
+        "issuer": "LinkedIn",
+        "issued": "Oct 2024",
+        "skills": ["Professional Communication", "Interpersonal Communication"]
+      },
+      {
+        "title": "Introduction to Career Skills in Software Development",
+        "issuer": "LinkedIn",
+        "issued": "Oct 2024",
+        "skills": ["Software Development", "Tech Career Skills", "Career Management"]
+      },
+      {
+        "title": "Certificate for Completing Internship in Python Full Stack",
+        "issuer": "WAHY LAB SOLUTIONS",
+        "issued": "Aug 2024",
+        "skills": ["Project Management", "JavaScript", "HTML", "Python", "CSS", "Team Coordination", "Communication", "Django Framework"]
       },
       {
         "title": "Certificate Development Course in JSP + Android",
-        "issuer": "Progressive Software Solutions & Training"
+        "issuer": "Progressive Cybernetics Pvt Ltd",
+        "issued": "Apr 2024"
+      },
+      {
+        "title": "One Day Workshop in Software Development",
+        "issuer": "IROHUB INFOTECH, Kochi",
+        "skills": ["Flutter Introduction"],
+        "issued": "Apr 2024"
+      },
+      {
+        "title": "Certification in Skill Development Programme in Cloud Computing and Cyber Security",
+        "issuer": "Indira Gandhi College of Arts and Science",
+        "issued": "Mar 2024"
+      },
+      {
+        "title": "Certification in Python Programming",
+        "issuer": "GITH Global India Techno Hub",
+        "issued": "May 2023",
+        "skills": ["NumPy", "Python", "Jupyter"]
+      },
+      {
+        "title": "Certification in Cloud Computing and Cyber Security",
+        "issuer": "GITH Global India Techno Hub",
+        "issued": "Apr 2022",
+        "skills": ["Networking", "Microsoft Azure", "Cloud Administration", "Data Security and Privacy", "Cybersecurity", "Cloud Computing (Microsoft Azure)"]
       }
     ]
   }
