@@ -1,6 +1,12 @@
 {
     "achievements": [
       {
+        "title": "ReactJS for Beginners",
+        "issuer": "Simplilearn",
+        "issued": "Feb 2025",
+        "credential": "https://simpli-web.app.link/e/61ocHqRUWQb"
+      },
+      {
         "title": "Introduction to Front End Development",
         "issuer": "Simplilearn",
         "issued": "Feb 2025",
